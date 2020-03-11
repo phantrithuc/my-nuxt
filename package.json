@@ -1,0 +1,20 @@
+{
+  "name": "example-i18n",
+  "dependencies": {
+    "nuxt": "^2.11.0",
+    "vue-i18n": "^7.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/markdownit": "^1.2.9",
+    "frontmatter-markdown-loader": "^3.2.1",
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-div": "^1.1.0"
+  }
+}
